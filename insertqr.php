@@ -24,13 +24,6 @@
        echo "http://ca.e-summit-iitbbs.com/register/register.php?p=";
        echo $code;
        echo "<br>";
-       
-      
-       	
-       
-       	
-			
-		
         }
 		
    }
