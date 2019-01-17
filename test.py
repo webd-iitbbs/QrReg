@@ -36,7 +36,7 @@ for i in range(1,501):
 	r = requests.get(url = URL, params = PARAMS, allow_redirects=True)
 	open('qrcodes/'+REG_NO+".png", 'wb').write(r.content)
 
-	sql_query="INSERT INTO `qr_code`(`id`, `normal_value`, `hashed`) VALUES (\'NULL\',\'%s\',\'%s\')" % (REG_NO, CODE)
+	sql_query="INSERT INTO `qr_code`(`id`, `normal_value`, `hashed`) VALUES (\'NULL\',\'%s\',\'%s\');" % (REG_NO, CODE)
 	print (sql_query)
 
     # try:
