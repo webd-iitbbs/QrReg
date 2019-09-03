@@ -9,11 +9,11 @@ import MySQLdb as db
 import os
 
 # Credentials
-HOST = "103.27.87.65"
-PORT = 3306
-USER = "esummiti_reg"
-PASSWORD = "!nPiUFjr)&NE"
-DB = "esummiti_register"
+HOST = "your_host"
+PORT = "your_port"
+USER = "your_user"
+PASSWORD = "your_password"
+DB = "your_db"
 
 # Loop for the no of qr codes required (ex:500 here)
 for i in range(1,501):
