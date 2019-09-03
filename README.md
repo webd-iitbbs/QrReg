@@ -1,3 +1,3 @@
-# REGISTRATION SYSTEM AND WEBSITE FOR E-SUMMIT - IIT BBS
+# Registration System
 
-This repository has all the code for needed for registration system, like qr code generation, registration card generation, databases...
+This repository contains autmation scripts for generating qr-codes based on a sequence of registration numbers, to make registration cards out of these qr codes and to club these cards.
